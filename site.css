@@ -1,0 +1,126 @@
+body{
+    margin : 0;
+    color : #2E3837;
+    font-family: "Fira Sans";
+}
+.container{
+    height: 100vh;                                                                                                                                                                                                                                                                                                                                                                                                   
+    justify-content: space-between;
+}
+
+.navbar{
+    height : 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3vw 0 3vw;
+    background-color: green;
+}
+
+.navbar-brand{
+    display: flex;
+
+}
+
+.navbar-links{
+   display: flex;
+   text-decoration: none;
+}
+
+.navbar-links h3 {
+    color : #2E3837;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+navbar-links ul li a{
+                text-align: center;
+                height: 30px;
+                width: 150px;
+                 color: black;
+    background-color: yellow;
+            }
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+a:visited{
+ 	color: white;
+ }
+
+ a:hover{
+ 	background-color: grey;
+ 	display: inline-block;
+ }
+
+ a:active{
+ 	color: black;
+ }
+
+ a{
+ 	text-decoration: none;
+ }
+
+@keyframes slider{
+	0%{background-image: url("slider/slide1.jpg" );}
+	50%{background-image: url("slider/slide2.jpg");}
+	100%{background-image: url("slider/slide3.jpg");}
+}
+
+#first-view {
+	margin: auto;
+	height: 90vh;
+	animation-name:slider;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+ #text{
+ 	color: blue;
+ 	display: flex;
+ 	justify-content: center;
+ 	position: relative;
+ 	top: 40vh;
+}
+
+
+.sub-container{
+	height: 40vh;
+	position:relative;
+	background-color: white;
+	padding:0;
+	margin-top: 6vh;
+	margin-bottom: 6vh;
+}
+
+section{
+	width:20vh;
+	height:5vh;
+	float: left;
+	margin: 10vh;
+}
+
+#heading{
+	color:green;	
+}
+nav ul li a {
+                text-align: center;
+                height: 30px;
+                width: 150px;
+                display: block;
+                color: black;
+                background-color: yellow;
+            }
