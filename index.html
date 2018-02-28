@@ -7,7 +7,6 @@
 
 
    <title>Hospital Site</title>
-    <link rel="stylesheet" href="site.css" />
 </head>
 <body>
     <div class="container">
@@ -17,44 +16,106 @@
                 <h1>NOREJ HOSPITAL</h1>
             </div>
 
-            <div class="ABOUT US-links">
-                <h3><a href="#">HOME</a></h3>
-                
-                
-                
-                <h3><a href="#">ABOUT US</a></h3>
-                <h3><a href="#">GALLERY</a></h3>
-                <h3><a href="#"> CONTACT </a> </h3>
-                
+            <div class="navbar-links">
+                <h3><a href="index.html">HOME</a></h3>
+                <h3><a href= "aboutUs.html">ABOUT US </a></h3>
+                <h3><a href="depts.html">DEPARTMENTS</a></h3>
+                <h3><a href="register.html"> REGISTER </a> </h3>
+                <h3><a href="emergency.html">EMERGENCY</a> </h3>
             </div>
 
         </div>
 
 
-        <div id="first-view"> 
-        	<div id="text">
-        				<h1> <b> WELCOME TO NOREJ HOSPITAL </b> </h1>
+            <div id="firstView"> 
+
+                    <!-- FIRST-VIEW LINK -->
+        	   <div id="text" id="front-view-button">
+                        <h1>    
+                            <b>
+                                <a id="change" href="#heading">WELCOME TO NOREJ HOSPITAL</a>  
+                            </b>
+                        </h1>
+                </div>
+
+
+            </div><!--.first-view ends here-->
+
+            </div><!--.container ends here-->
+
+
+
+            <div class="sub-container"> <h1 id="heading"> OUR SERVICES </h1>
+                        <!--SECTIONS BEGIN HERE-->
+					<section id ="heading">
+						<h1>SPECIAL CARE</h1>
+        					<article>
+								 We have the best facilities to give you the best of services.
+								 We have well trained Doctors and Nurses, who will see to it that
+								 you have a warm customer service.
+							</article> <br>
+
+
+						<div class="pageLinks">
+							 <h1><a href="./aboutUs.html"> MORE </a> </h1>
+						</div> 
+				    </section>
+						
+
+        	<section id ="heading">
+				<h1>ONLINE CARD REGISTRATION AND VERIFICATION</h1>
+        			<article>
+						 Because we are concerned about you and your time,
+						 we avoid long queues by providing an online registartion 
+						 system for hospital cards right here. 
+					</article> <br>
+        				 <div class="pageLinks"> 
+							 <h1> <a href="./register.html"> REGISTER </a> </h1>
+						</div>
+			</section>
+
+
+        	<section id ="heading"><h1>EMERGENCY SERVICES</h1>
+        		<article>
+					we are very much concerned about the risk involoved in emergency cases.
+					In view of this, let us know the type of case you are coming with and prepare for your arrival.
+					Or call us to send you an ambulance right now.
+				</article> <br>
+        			<div class="pageLinks"> <h1> <a href="./emergency.html"> MORE </a> </h1></div> 
+
+            </section> 
+            <!--SECTIONS END HERE -->
+
+
+		</div>
+		   
+
+
+            <!--OUR SPECIALISTS CONTAINER BEGINS HERE -->
+       	<div id="third-view"> 
+        	 	<div > <h1 id = "heading" color="#2E3837;"> MEET OUR SPECIALIST </h1> <br> <br>
+        			
+		              <table style="margin-left:14vh;">
+				            <tr>  <th> <img src="slider/team-1.jpg" class="team"> </th> <th> <img src="slider/team-2.jpg" class="team"> </th> <th> <img src="slider/team-3.jpg" class="team"></th></tr>
+				            <tr>  <td> <img src="slider/team-4.jpg" class="team" > </td>  <th> <img src="slider/team-5.jpg" class="team"></th> <th> <img src="slider/team-6.jpg" class="team"></th> </tr> 
+                        </table>	
         		</div>
         	</div>
+            <!-- OUR SPECIALIST CONTAINER ENDS HERE -->
+       
 
+        <footer>
+        	
+			<p align="center"> For more contact: <br>
+				    <a href= "noraboamaah@gmail.com"> mail me </a> || 
+                    <a href= "0553064366"> call me </a> ||
+					<a href = "http://www.facebook.com/Nora Boamaah Mensah"> facebook me </a> <br>
+					Copyright 2018. All rights reserved
+			</p>					
 
-        </div><!--.first-view ends here-->
+        </footer>
 
-        </div><!--.container ends here-->
-
-
-
-        <div class="sub-container"> 
-        	<section id="heading"><h1>SPECIAL CARE<h1></section> 
-        	<section id="heading"><h1>ONLINE SUPPRT<h1></section> 
-        	<section id="heading"><h1>SPECIAL CARE<h1></section> 
-        	<section id="heading"><h1>MEDICAL CONSULTATION<h1></section> 
-        	<section id="heading"><h1>EMERGENCY SERVICES<h1></section> 
-     
-        </div>
-
-
-
+        <script type="text/javascript" src="index.js"></script>
 
         </body>
         </html>

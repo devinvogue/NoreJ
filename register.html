@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hospital Site</title>
+<link rel="stylesheet" type="text/css" href="site.css">
+
+</head> 
+
+
+   <title>Hospital Site</title>
+    <link rel="stylesheet" href="site.css" />
+</head>
+
+<body onload="firstfocus();">
+    
+
+        <div class="navbar">
+            <div class="navbar-brand">
+                <h1>NOREJ HOSPITAL</h1>
+            </div>
+
+            <div class="navbar-links">
+                <h3><a href="index.html">HOME</a></h3>
+                <h3><a href= "aboutUs.html">ABOUT US </a></h3>
+                <h3><a href="depts.html">DEPARTMENTS</a></h3>
+                <h3><a href="#"> REGISTER </a> </h3>
+                <h3><a href="emergency.html">EMERGENCY</a> </h3>
+            </div>
+        </div>
+
+        <!-- THIS IS THE CONTAINER FOR THE WHOLE FORM -->
+            <div class="box">
+
+        <!-- THIS IS THE CONTAINER FOR REGISTRATION OF HOSPITAL CARDS -->
+                  <div class="cardreg">
+
+                          <form name="registration"  method="post">
+                                <h1 id="heading"> REGISTRATION OF HOSPITAL CARDS </h1>
+
+
+                                Name <br>
+                                    <input type="text" size="50" placeholder="Enter your name here"  name="username" onblur="allLetter()"> <br> <br>
+
+                                        <label id="gender">Sex [Select Male or Female] :</label></li>
+                                        <input type="radio" name="sex" value="Male" checked /><span>Male</span></li>
+                                        <input type="radio" name="sex" value="Female" /><span>Female</span></li> <br> <br>
+
+                                Age <br>
+                                    <input type="text" size="50" placeholder="Enter your age here" name="age" /> <br> <br>
+
+                                Email <br>
+                                      <input type = "text" size="50" placeholder="Enter your email address here" name="email" size="50" onblur="ValidateEmail()" /> <br> <br>
+
+                                  Phone Number <br>
+                                      <input type= "number" id="numb" size="50" min="10" Enter your Phone number here name="pnumb"> <br> <br>
+
+                                    Date of birth <br>
+                                        <input type="month" name="semst" name="dob"><br> <br>
+
+
+                                     <label for="country">Country :</label></li>
+                                          <select name="country" onblur="countryselect()">
+                                            <option selected="" value="Default">(Please select a country)</option>
+                                            <option value="AF">Australia</option>
+                                            <option value="AL">Canada</option>
+                                            <option value="DZ">India</option>
+                                            <option value="AS">Russia</option>
+                                            <option value="AD">USA</option>
+                                            <option value="GH">GHANA</option>
+                                          </select></li> <br> <br> <br>
+
+                                      <textarea id ="form_message"> 
+                                           Would you like to leave any information with us?
+                                      </textarea> <br> <br>
+
+                                    <input type="submit" name="submit" value="Submit" />
+
+                              </form>
+
+                          </div>
+                            <!-- THE CONTAINER FOR REGISTRATION OF HOSPITAL CARDS ENDS -->
+
+
+
+
+                        <!-- THIS IS THE CONTAINER FOR THE VERIFICATION OF NHIS CARDS -->
+                        <div class="cardvef">
+                              <form action="nationalhealthinsurance.org" name="register" name="username" onblur="allLetter()" > 
+
+                                  <H1 id="heading"> VERIFICATION OF NHIS </H1> <br> <br>
+
+                                        Name <br>
+                                          <input type="text" size="50" placeholder="Enter your name here" name="username" onblur="allLetter()"/> <br > <br>
+
+                                          <label id="gender">Sex [Select Male or Female] :</label></li>
+                                              <input type="radio" name="sex" value="Male" checked /><span>Male</span></li>
+                                              <input type="radio" name="sex" value="Female" /><span>Female</span></li> <br> <br>
+
+
+                                        Date Renewed <br>
+                                          <input type="month" name="semst"><br> <br>
+
+                                        Expiration Date <br>
+                                          <input type="month" name="semst"><br> <br>
+
+                                        Card Codes <br>
+                                          <input type="numbers" size="10" name="zip" onblur="allnumeric()"> <br> <br>
+
+                                          <input type="submit" name="submit" value="Submit" onclick="alert('Form submitted successfully')" />
+                                   </form>
+
+                              </div>  <!-- THE CONTAINER FOR VERIFICATION OF NHIS CARDS ENDS ENDS -->
+
+                            </div> <!-- THE FORM CINTAINER ENDS HERE -->
+
+
+      <footer >
+            
+            <p align="center"> For more contact: <br>
+                <a href= "noraboamaah@gmail.com"> mail me </a> ||
+                <a href= "0553064366"> call me </a> ||
+                <a href = "http://www.facebook.com/Nora Boamaah Mensah"> facebook me </a> <br>
+                    Copyright 2017. All rights reserved
+              </p>                    
+      </footer>
+
+
+
+        <script src="index.js"></script>
+</body>
+
+</html>
